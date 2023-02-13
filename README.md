@@ -37,4 +37,4 @@ Usage:
 Pre-requisites:
 
 You will need to have your AWS credentials ready. Easy option can be to configure AWS CLI on the workstation and run the project.
-Please update the variable named phone_number inside variables.tf to use any verified numbers which you may already setup for your account.
+Please update the variable named phone_number inside variables.tf to use any verified numbers which you may already setup for your account. The above URL is configured to send alerts to my personal number , so any new url requests should be alerted.
