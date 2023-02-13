@@ -9,7 +9,7 @@ Solution:
 This project allows the creation of a s3 bucket where the xml file will be hosted, with Cloudfront as the CDN, without ACM configurations. This is useful when you want to host files, or a website, over a CDN but don't necessarily need a domain name. 
 For simplicity reasons, as this task involves a single file, I have not used the bucket to act as a static website, but that can be appended easily if the requirement changes. Along with the same, we can also use custom domain names along with certificate manager.
 
-Optionally I have added some best practise features which can be setup for this project. Easy option to pass your AWS credentials can be to configure AWS CLI on the workstation and run the project.
+Optionally I have added some best practise features which can be setup for this project.
 
 Enabled access logging for the primary bucket and Cloudfront.
 For monitoring, configured CloudWatch alarms using CloudFront metrics and further used SNS topics for Alerting based on Requests
@@ -26,3 +26,9 @@ We can also configure the CloudFront distribution to add the Geo Restriction fea
 We can enable the default S3 SSE encryption for the buckets and ensure replication takes place along with encryption.
 We can also enable failover on Cloudfront to use the replication bucket whenever an error occurs on the primary region.
 
+Usage:
+
+Pre-requisites:
+
+You will need to have your AWS credentials ready. Easy option can be to configure AWS CLI on the workstation and run the project.
+Please update the local variable named phone_number inside monitoring.tf to use any verified numbers which you may already setup for your account. If no verified numbers are configured , use any random phone number as the SMS notification will then not be triggered .
