@@ -15,13 +15,13 @@ URL : https://d2vuprsemioo9c.cloudfront.net
 
 Optionally I have added some best practise features which can be setup for this project.
 
-Enabled access logging for the primary bucket and Cloudfront.
-For monitoring, configured CloudWatch alarms using CloudFront metrics and further used SNS topics for Alerting based on Requests
-Configured AWS Backup to backup the xml file stored in the S3 bucket
-Configured custom ACLs for the buckets
-Enabled Cross Region Replication of buckets for higher availabilty incase there is a regional outage.
-Enabled versioning on primary and replication buckets.
-Enabled lifecycle events for the primary and replication buckets, to archive and eventually delete versioned data.
+Enabled access logging for the primary bucket and Cloudfront. 
+For monitoring, configured CloudWatch alarms using CloudFront metrics and further used SNS topics for Alerting based on Requests. 
+Configured AWS Backup to backup the xml file stored in the S3 bucket. 
+Configured custom ACLs for the buckets. 
+Enabled Cross Region Replication of buckets for higher availabilty incase there is a regional outage. 
+Enabled versioning on primary and replication buckets. 
+Enabled lifecycle events for the primary and replication buckets, to archive and eventually delete versioned data. 
 
 
 Please note, while I have tried to follow the best practices out-of-the-box, there are still some recommended setup which can be added further. Few of those can be - 
