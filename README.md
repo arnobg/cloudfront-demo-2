@@ -31,4 +31,4 @@ Usage:
 Pre-requisites:
 
 You will need to have your AWS credentials ready. Easy option can be to configure AWS CLI on the workstation and run the project.
-Please update the local variable named phone_number inside monitoring.tf to use any verified numbers which you may already setup for your account. If no verified numbers are configured , use any random phone number as the SMS notification will then not be triggered .
+Please update the variable named phone_number inside variables.tf to use any verified numbers which you may already setup for your account.
