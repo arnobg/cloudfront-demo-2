@@ -7,7 +7,7 @@ I'd like the candidate to make this xml file (attached to this email) accessible
 Solution:
 
 This project allows the creation of a s3 bucket where the xml file will be hosted, with Cloudfront as the CDN, without ACM configurations. This is useful when you want to host files, or a website, over a CDN but don't necessarily need a domain name. 
-For simplicity reasons, as this task involves a single file, I have not used the bucket to act as a static website, but that can be appended easily if the requirement changes.
+For simplicity reasons, as this task involves a single file, I have not used the bucket to act as a static website, but that can be appended easily if the requirement changes. Along with the same, we can also use custom domain names along with certificate manager
 
 Optionally I have added some best practise features which can be setup for project:
 
