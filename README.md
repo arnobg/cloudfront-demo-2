@@ -26,11 +26,11 @@ Enabled lifecycle events for the primary and replication buckets, to archive and
 
 Please note, while I have tried to follow the best practices out-of-the-box, there are still some recommended setup which can be added further. Few of those can be - 
 
-Hosting a static website along with using custom domain name for your cloundfront distribution
-We can consider creating a WAF (Web application Firewall) in front of the cloudfront distribution. It is highly recommended that you use one, especially in a production environment. 
-We can also configure the CloudFront distribution to add the Geo Restriction feature (Geo Blocking), thereby ensuring we can blacklist/whitelist requests only from specific countries.
-We can enable the default S3 SSE encryption for the buckets and ensure replication takes place along with encryption.
-We can also enable failover on Cloudfront to use the replication bucket whenever an error occurs on the primary region.
+Hosting a static website along with using custom domain name for your cloundfront distribution. 
+We can consider creating a WAF (Web application Firewall) in front of the cloudfront distribution. It is highly recommended that you use one, especially in a production environment.  
+We can also configure the CloudFront distribution to add the Geo Restriction feature (Geo Blocking), thereby ensuring we can blacklist/whitelist requests only from specific countries. 
+We can enable the default S3 SSE encryption for the buckets and ensure replication takes place along with encryption. 
+We can also enable failover on Cloudfront to use the replication bucket whenever an error occurs on the primary region. 
 
 Usage:
 
