@@ -1,8 +1,8 @@
-# cyberduck-demo-2
+# cloudfront-demo-2
 
 Task:
 
-I'd like the candidate to make this xml file (attached to this email) accessible on a public URL. Assume that this xml file will be consumed by a web service. Please consider best practice: backups, availability, monitoring, logging, etc.
+To make this xml file accessible on a public URL. Assume that this xml file will be consumed by a web service. Please consider best practice: backups, availability, monitoring, logging, etc.
 
 Solution:
 
